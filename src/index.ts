@@ -5,7 +5,7 @@ interface Animal {
 
 const animal: Animal = {
   height: 5,
-  name: 'qtip',
+  name: 'qtip100',
 };
 
 console.log(animal);
