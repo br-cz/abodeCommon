@@ -1,0 +1,5 @@
+We want to convert TS into JS to make it generally compatible, hence:
+-we make a build command in package.json
+-uncomment declaration in tsconfig to make a type def file
+-uncomment outdir and change path to ./build so it generates a folder called build filled with converted js code
+-install del cli to clean the build directory to get a fresh build 
